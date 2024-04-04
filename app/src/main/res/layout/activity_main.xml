@@ -10,14 +10,18 @@
     <EditText
         android:id="@+id/edit1"
         android:layout_width="@dimen/editWidth"
+        android:textSize="@dimen/textSizeMedium"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/marginMedium"
         android:layout_marginTop="@dimen/marginLarge"
+        android:inputType="numberDecimal"
         android:hint="@string/hintNum1" />
 
     <EditText
         android:id="@+id/edit2"
         android:layout_width="@dimen/editWidth"
+        android:textSize="@dimen/textSizeMedium"
+        android:inputType="numberDecimal"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/marginMedium"
         android:hint="@string/hintNum2" />
@@ -49,7 +53,7 @@
         android:layout_margin="@dimen/marginMedium"
         android:text="@string/btnMultiply"
         android:textSize="@dimen/textSizeMedium"
-        android:backgroundTint="@color/lightBl"
+        android:backgroundTint="@color/lightGr"
         android:textColor="@color/black" />
 
     <Button
@@ -59,6 +63,16 @@
         android:layout_margin="@dimen/marginMedium"
         android:text="@string/btnDivide"
         android:textSize="@dimen/textSizeMedium"
+        android:backgroundTint="@color/lightBl"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btnMod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/marginMedium"
+        android:text="@string/btnMod"
+        android:textSize="@dimen/textSizeMedium"
         android:backgroundTint="@color/lightPu"
         android:textColor="@color/black" />
 
@@ -67,7 +81,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="bottom"
-        android:textSize="@dimen/textSizeMedium"
+        android:textSize="@dimen/textSizeLarge"
         android:layout_margin="@dimen/marginLarge"
         android:text="@string/textResult"
         android:textColor="@color/Red" />

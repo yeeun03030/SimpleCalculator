@@ -4,8 +4,9 @@
     <string name="btnMinus">빼기</string>
     <string name="btnMultiply">곱하기</string>
     <string name="btnDivide">나누기</string>
+    <string name="btnMod">나머지</string>
     <string name="textResult">계산 결과: </string>
 
-    <string name="hintNum1">첫번째 정수 입력</string>
-    <string name="hintNum2">두번째 정수 입력</string>
+    <string name="hintNum1">첫번째 숫자 입력</string>
+    <string name="hintNum2">두번째 숫자 입력</string>
 </resources>
